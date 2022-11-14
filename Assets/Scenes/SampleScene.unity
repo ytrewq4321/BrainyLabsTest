@@ -244,50 +244,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6285734071659590966, guid: d40198ec22b08e147b03447fa0319936, type: 3}
   m_PrefabInstance: {fileID: 6285734071401996763}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &308162161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 308162163}
-  - component: {fileID: 308162162}
-  m_Layer: 0
-  m_Name: Grid
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!156049354 &308162162
-Grid:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308162161}
-  m_Enabled: 1
-  m_CellSize: {x: 1, y: 1, z: 0}
-  m_CellGap: {x: 0, y: 0, z: 0}
-  m_CellLayout: 0
-  m_CellSwizzle: 0
---- !u!4 &308162163
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 308162161}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &329946351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6285734071659590964, guid: d40198ec22b08e147b03447fa0319936, type: 3}
@@ -1207,7 +1163,7 @@ Transform:
   - {fileID: 1075096003}
   - {fileID: 1682654914}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1484915052
 GameObject:
@@ -2031,6 +1987,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: GlobalObjectIdHash
+      value: 528526175
+      objectReference: {fileID: 0}
     - target: {fileID: 6285734071659590954, guid: d40198ec22b08e147b03447fa0319936, type: 3}
       propertyPath: camera
       value: 
