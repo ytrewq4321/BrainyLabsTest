@@ -1,1 +1,1 @@
-Simple top down shooter
+Simple top down shooter with enemy AI
